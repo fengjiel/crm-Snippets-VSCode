@@ -1,0 +1,36 @@
+{
+    "name": "crm-snippets",
+    "displayName": "crm-snippets",
+    "description": "测试",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fengjiel/crm-Snippets-VSCode.git"
+    },
+    "contributes": {
+      "snippets": [
+        {
+          "language": "javascript",
+          "path": "./snippets/snippets.json"
+        },
+        {
+          "language": "html",
+          "path": "./snippets/snippets.json"
+        },
+        {
+          "language": "vue",
+          "path": "./snippets/snippets.json"
+        },
+        {
+          "language": "vue-html",
+          "path": "./snippets/snippets.json"
+        }
+      ]
+    }
+}

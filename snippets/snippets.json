@@ -1,0 +1,181 @@
+{
+  "vue template":{
+    "prefix":"vtemplate",
+    "description": "vuetemplate",
+    "body":[
+      "<template>",
+      "  <div>",
+      "",
+      "  </div>",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "  name:'$1',",
+      "  components:{},",
+      "  props:{},",
+      "  data() {",
+      "    return {",
+      "       $2",
+      "    }",
+      "  },",
+      "  mounted() {",
+      "    this.init()",
+      "  },",
+      "  methods: {",
+      "    init()",
+      "  },",
+      "}",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ]
+  },
+  "tools.message": {
+		"prefix": "tmessage",
+		"body": [
+			"this.\\$tools.message($1)"
+		],
+		"description": "this.$tools.message(message, type = 'success', duration = 1500)"
+  },
+  "tools.toRouter": {
+		"prefix": "ttorouter",
+		"body": [
+			"this.\\$tools.toRouter($1)"
+		],
+		"description": "this.$tools.toRouter(vue, routerName, routerObj, type)"
+  },
+  "tools.getRouter": {
+		"prefix": "tgetrouter",
+		"body": [
+			"this.\\$tools.getRouter(this)"
+		],
+		"description": "this.$tools.getRouter(vue)"
+  },
+  "tools.back": {
+		"prefix": "tback",
+		"body": [
+			"this.\\$tools.back()"
+		],
+		"description": "vue.$router.back(-1)"
+  },
+  "tools.record": {
+		"prefix": "trecord",
+		"body": [
+			"this.\\$tools.record(this, $1)"
+		],
+		"description": "this.$tools.record(vue, recordParams)"
+  },
+  "tools.deepCopy": {
+		"prefix": "tdeepCopy",
+		"body": [
+			"this.\\$tools.deepCopy($1)"
+		],
+		"description": "this.$tools.deepCopy(object)"
+  },
+  "tools.setSession": {
+		"prefix": "tsetSession",
+		"body": [
+			"this.\\$tools.setSession($1)"
+		],
+		"description": "this.$tools.setSession(nameObj, obj)"
+  },
+  "tools.getSession": {
+		"prefix": "tgetSession",
+		"body": [
+			"this.\\$tools.getSession($1)"
+		],
+		"description": "this.$tools.getSession(nameObj)"
+  },
+  "tools.pushSession": {
+		"prefix": "tpushSession",
+		"body": [
+			"this.\\$tools.pushSession($1)"
+		],
+		"description": "this.$tools.pushSession(nameObj, obj)"
+  },
+  "tools.ruleForm": {
+		"prefix": "truleForm",
+		"body": [
+			"this.\\$tools.ruleForm(this, $1)"
+		],
+		"description": "this.$tools.ruleForm(vue, refsArr, cb)"
+  },
+  "tools.resetForm": {
+		"prefix": "tresetForm",
+		"body": [
+			"this.\\$tools.resetForm(this, $1)"
+		],
+		"description": "this.$tools.resetForm(vue, refsArr)"
+  },
+  "tools.trim": {
+		"prefix": "ttrim",
+		"body": [
+			"this.\\$tools.trim($1)"
+		],
+		"description": "this.$tools.trim(str)"
+  },
+  "tools.getFormItemParams": {
+		"prefix": "tgetFormItemParams",
+		"body": [
+			"this.\\$tools.getFormItemParams($1)"
+		],
+		"description": "this.$tools.getFormItemParams(formItem)"
+  },
+  "tools.getEnv": {
+		"prefix": "tgetEnv",
+		"body": [
+			"this.\\$tools.getEnv()"
+		],
+		"description": "this.$tools.getEnv()"
+  },
+  "tools.getHomeworkUrl": {
+		"prefix": "tgetHomeworkUrl",
+		"body": [
+			"this.\\$tools.getHomeworkUrl($1)"
+		],
+		"description": "this.$tools.getHomeworkUrl(language)"
+  },
+  "tools.objProxy": {
+		"prefix": "tobjProxy",
+		"body": [
+			"this.\\$tools.objProxy($1)"
+		],
+		"description": "this.$tools.objProxy(obj, replaceVal = '', exec = '_')"
+  },
+
+  "utils.scriptCoursePackageId": {
+		"prefix": "uscriptCoursePackageId",
+		"body": [
+			"this.\\$utils.scriptCoursePackageId($1)"
+		],
+		"description": "this.$tools.scriptCoursePackageId(coursePackageId, classType = 0)"
+  },
+  "utils.yearCoursePackageId": {
+		"prefix": "uyearCoursePackageId",
+		"body": [
+			"this.\\$utils.yearCoursePackageId($1)"
+		],
+		"description": "this.$tools.yearCoursePackageId(coursePackageId, classType = 0)"
+  },
+  "utils.L1CoursePackageId": {
+		"prefix": "uL1CoursePackageId",
+		"body": [
+			"this.\\$utils.L1CoursePackageId($1)"
+		],
+		"description": "this.$tools.L1CoursePackageId(coursePackageId, classType = 0)"
+  },
+
+
+  "statistics": {
+		"prefix": "statistics",
+		"body": [
+			"this.\\$statistics({ event: '$1', context: {$2} })"
+		],
+		"description": "statistics"
+  },
+
+  
+}
